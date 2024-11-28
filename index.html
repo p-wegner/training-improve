@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iSAQB-A Improve Schulung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>iSAQB® CPSA®-A IMPROVE</h1>
+            <h2 class="subtitle">Professionelle Evolution und Verbesserung von Softwarearchitekturen</h2>
+            <div class="hero-badges">
+                <span class="badge"><i class="fas fa-clock"></i> 3 Intensive Schulungstage</span>
+                <span class="badge"><i class="fas fa-certificate"></i> 30 Credit Points</span>
+                <span class="badge"><i class="fas fa-users"></i> Max. 12 Teilnehmer</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="course-overview">
+            <div class="overview-card">
+                <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Credit Points Verteilung</h3>
+                <ul>
+                    <li><i class="fas fa-cog"></i> Technisch: 10 Punkte</li>
+                    <li><i class="fas fa-brain"></i> Methodisch: 20 Punkte</li>
+                    <li><i class="fas fa-comments"></i> Kommunikativ: 0 Punkte</li>
+                </ul>
+            </div>
+
+            <div class="overview-card">
+                <div class="card-icon"><i class="fas fa-users"></i></div>
+                <h3>Zielgruppe & Voraussetzungen</h3>
+                <ul>
+                    <li><i class="fas fa-user-tie"></i> Softwarearchitekt:innen</li>
+                    <li><i class="fas fa-code"></i> Erfahrene Softwareentwickler:innen</li>
+                    <li><i class="fas fa-universal-access"></i> Grundlegende Programmierkenntnisse</li>
+                    <li><i class="fas fa-book"></i> Verständnis von Softwarearchitektur-Grundlagen</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="day-container">
+                <div class="day-header">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3>Tag 1: Orientierung & Analyse</h3>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day1-topic1')">
+                        <i class="fas fa-users"></i> Mender vs Maker
+                    </h4>
+                    <div id="day1-topic1" class="details">
+                        <p>Unterschiedliche Vorlieben und Bedarf je nach Projektphase</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day1-topic2')">
+                        <i class="fas fa-chart-line"></i> aim42 Methode
+                    </h4>
+                    <div id="day1-topic2" class="details">
+                        <p>Systematische Architekturverbesserung: Analysieren, Bewerten, Verbessern</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day1-topic3')">
+                        <i class="fas fa-search"></i> Kontextabgrenzung
+                    </h4>
+                    <div id="day1-topic3" class="details">
+                        <p>Erstellung von Kontextdiagrammen zur Systemeinbettung</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day1-topic4')">
+                        <i class="fas fa-balance-scale"></i> Architektur-Metriken
+                    </h4>
+                    <div id="day1-topic4" class="details">
+                        <p>Bewertung von Softwarearchitekturen durch quantitative Metriken</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day1-topic5')">
+                        <i class="fas fa-project-diagram"></i> Technische Schuld
+                    </h4>
+                    <div id="day1-topic5" class="details">
+                        <p>Identifikation, Bewertung und Strategien zur Reduzierung technischer Schuld</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3>Tag 2: Analyse & Bewertung</h3>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day2-topic1')">
+                        <i class="fas fa-code"></i> Code-Analyse Techniken
+                    </h4>
+                    <div id="day2-topic1" class="details">
+                        <p>Code as a Crime Scene, CodeCharta, CodeScene</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day2-topic2')">
+                        <i class="fas fa-project-diagram"></i> Pattern Language
+                    </h4>
+                    <div id="day2-topic2" class="details">
+                        <p>Architektur-Review-Techniken und Muster</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day2-topic3')">
+                        <i class="fas fa-layer-group"></i> Architektur-Schichten
+                    </h4>
+                    <div id="day2-topic3" class="details">
+                        <p>Analyse und Optimierung von Softwarearchitektur-Schichten</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day2-topic4')">
+                        <i class="fas fa-exchange-alt"></i> Modulare Architektur
+                    </h4>
+                    <div id="day2-topic4" class="details">
+                        <p>Microservices, Monolithen und Hybride Architekturen</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day2-topic5')">
+                        <i class="fas fa-shield-alt"></i> Anti-Korruptions-Layer
+                    </h4>
+                    <div id="day2-topic5" class="details">
+                        <p>Strategien zur Entkopplung und Isolation von Systemkomponenten</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-container">
+                <div class="day-header">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3>Tag 3: Umsetzung & Strategien</h3>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day3-topic1')">
+                        <i class="fas fa-link"></i> Abhängigkeiten Bändigen
+                    </h4>
+                    <div id="day3-topic1" class="details">
+                        <p>Sensing, Separation, Seams, Factory Pattern</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day3-topic2')">
+                        <i class="fas fa-random"></i> Zerlegungsstrategien
+                    </h4>
+                    <div id="day3-topic2" class="details">
+                        <p>Inkrementelle Änderungen, Stranger Fig, Abstraktion</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day3-topic3')">
+                        <i class="fas fa-sync"></i> Refactoring-Techniken
+                    </h4>
+                    <div id="day3-topic3" class="details">
+                        <p>Systematische Verbesserung von Softwarearchitektur und Code</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day3-topic4')">
+                        <i class="fas fa-cloud"></i> Cloud-Native Architekturen
+                    </h4>
+                    <div id="day3-topic4" class="details">
+                        <p>Design-Prinzipien und Muster für skalierbare Cloud-Systeme</p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <h4 onclick="toggleDetails('day3-topic5')">
+                        <i class="fas fa-chart-pie"></i> Architektur-Entscheidungen</h4>
+                    <div id="day3-topic5" class="details">
+                        <p>ADR (Architecture Decision Records), Trade-off Analyse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quotes-container">
+            <h3><i class="fas fa-quote-left"></i> Kernbotschaften der Schulung</h3>
+            <div class="quote-carousel">
+                <div class="quote active">
+                    <p>Probleme ganzheitlich betrachten, nicht nur im Code.</p>
+                </div>
+                <div class="quote">
+                    <p>Suche nicht nur dort, wo das Licht scheint.</p>
+                </div>
+                <div class="quote">
+                    <p>Zuerst das Problem verstehen, dann Lösungen entwickeln.</p>
+                </div>
+                <div class="quote">
+                    <p>Architekturverbesserung ist ein kontinuierlicher Prozess.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+- Wir wollen unseren Kunden die beste Kundenzufriedenheit liefern.
+- Wir wollen alle regulatorischen Anforderungen erfüllen!
+- Nach Firmenübernahmen wollen wir Softwaresystem bestmöglich konsolidieren.
+- Wir wollen mit schnellerer Time to Market unseren Konkurrenten zuvorkommen.
